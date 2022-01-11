@@ -9,9 +9,9 @@ console.log(dollarArry);
 // 3 )
 euroArry.map(
 (prozent) => {
-    dollarArry.push((prozent - 1.14).toFixed(2));
+    dollarArry.push((prozent * 1.14).toFixed(2));
 }
    )
-   console.log(dollarArry);
-   console.log(euroArry);
+   console.log("Dollar:",dollarArry);
+   console.log("Euro",euroArry);
 
